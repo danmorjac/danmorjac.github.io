@@ -1,9 +1,10 @@
 html {
-    max-width: 1250px;
+    max-width: 50em;
     margin: auto;
+
   }
   
-  @media (max-width: 1250px) {
+  @media (max-width: 50em) {
     html {
       margin: auto 1rem;
     }
