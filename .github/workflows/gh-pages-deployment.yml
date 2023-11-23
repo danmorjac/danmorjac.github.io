@@ -1,10 +1,13 @@
 name: Deploy to github pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
-
+    paths:
+      - website/**
+      - .github/workflows/gh-pages-deployment.yml
 jobs:
   ci-cd:
     runs-on: ubuntu-latest
