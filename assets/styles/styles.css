@@ -1,7 +1,6 @@
 html {
     max-width: 50em;
     margin: auto;
-
   }
   
   @media (max-width: 50em) {
