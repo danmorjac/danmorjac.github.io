@@ -1,9 +1,10 @@
-
 document.querySelectorAll('.languajes-tools').forEach(function (element) {
+  // Ocultar todos los elementos con la clase hidden-cont al principio
+  var targetId = element.nextElementSibling.id;
+  var targetElement = document.getElementById(targetId);
+  targetElement.style.display = 'none';
+
   element.addEventListener('click', function () {
-    var targetId = this.nextElementSibling.id;
-    var targetElement = document.getElementById(targetId);
-    
     // Ocultar todos los elementos con la clase hidden-cont
     document.querySelectorAll('.hidden-cont').forEach(function (hiddenElement) {
       hiddenElement.style.display = 'none';
