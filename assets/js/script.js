@@ -1,7 +1,7 @@
 document.querySelectorAll('.languajes-tools').forEach(function (element) {
   // Ocultar todos los elementos con la clase hidden-cont al principio
-  var targetId = element.nextElementSibling.id;
-  var targetElement = document.getElementById(targetId);
+  let targetId = element.nextElementSibling.id;
+  let targetElement = document.getElementById(targetId);
   targetElement.style.display = 'none';
 
   element.addEventListener('click', function () {
