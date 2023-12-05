@@ -58,22 +58,24 @@ button{
 }
 
 .card img {
-    width: 30%;
+    width: 60%; /* Ajusta el ancho de la imagen según tus preferencias */
     height: auto;
-    border-radius: 4px;
+    border-radius: 8px;
+    margin: 0% 10%;
 }
 
 .card h4 {
-    color: #333;
+    color: #222;
     margin: 10px 0;
 }
 
 .card p {
-    color: #666;
+    color: #222;
 }
 
+
 .date {
-    color: #888;
+    color: #222;
     font-size: 12px;
     margin-top: 5px;
 }
