@@ -13,7 +13,11 @@ html {
   box-sizing: border-box;
 }
 
-
+im g {
+  border-radius: 5px;
+  border-color: #1d4ed8;
+  border-style: solid;
+}
 
 button {
   display: block;
