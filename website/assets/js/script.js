@@ -9,6 +9,9 @@ elements.forEach(function (element, index) {
     let targetId = element.nextElementSibling.id;
     let targetElement = document.getElementById(targetId);
     targetElement.style.display = 'none';
+
+  } else {
+    element.classList.add('active');
   }
 
   // Agrega un evento 'click' a cada elemento
