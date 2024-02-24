@@ -11,6 +11,7 @@ elements.forEach(function (element, index) {
     targetElement.style.display = 'none';
 
   } else {
+    // Agrega la clase 'active' al Elemento en posicion 0
     element.classList.add('active');
   }
 
